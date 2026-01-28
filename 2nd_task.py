@@ -1,12 +1,14 @@
-inputs = int(input("enter the number or press enter to quit: "))
+from operator import truediv
 
 list = []
 
 while True:
+    inputs = input("enter the number or press enter to quit: ")
+
     if inputs == "":
-        print("enter again")
         break
-    else:
-         list.append(inputs)
-         inputs = int(input("enter the number or press enter to quit: "))
-print(list)
+
+    list.append(int(inputs))
+list.sort(reverse=True)
+print(list[:5])
+
