@@ -9,4 +9,3 @@ for n in cities_list:
 
 
 
-
