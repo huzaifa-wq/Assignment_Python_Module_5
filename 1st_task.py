@@ -1,5 +1,5 @@
 import random
-dice_quantity = int(input("Enter the Number: "))
+dice_quantity = int(input("Enter the Number of dices want to roll: "))
 
 total = 0
 
